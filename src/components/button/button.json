@@ -1,0 +1,20 @@
+{
+  "name": "button",
+  "version": "1.0.0",
+  "description": "Button component for forms",
+  "main": "./index.tsx",
+  "types": "./index.tsx",
+  "files": ["./index.tsx"],
+  "dependencies": {
+    "@ruforms/primitives": "^1.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "keywords": ["button", "forms", "ruforms"],
+  "author": "RuForms Team",
+  "license": "MIT",
+  "repository": "https://github.com/ruforms/form-inputs",
+  "homepage": "https://ruforms.com/components/button"
+}

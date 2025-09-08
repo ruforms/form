@@ -1,42 +1,86 @@
-# @ruforms/forms
+# @ruforms/form-inputs
 
-forms for RuForms
+A collection of high-quality React form input components built with TypeScript and Tailwind CSS
 
-## Installation
+## 🚀 Installation
 
-```bash
-pnpm add @ruforms/forms
-```
+### Using shadcn CLI 3.0+ (Recommended)
 
-## Usage
+**1. Add RuForms registry to your `components.json`:**
 
-```tsx
-import { ExampleComponent } from '@ruforms/forms'
-
-function App() {
-  return <ExampleComponent />
+```json
+{
+  "registries": {
+    "@ruforms": {
+      "url": "https://your-cloudfront-domain/r/{name}.json",
+      "headers": {
+        "Authorization": "Bearer ${REGISTRY_TOKEN}"
+      }
+    }
+  }
 }
 ```
 
-## Development
+**2. Install components:**
+
+```bash
+npx shadcn@latest add @ruforms/input
+npx shadcn@latest add @ruforms/textarea
+npx shadcn@latest add @ruforms/button
+npx shadcn@latest add @ruforms/select
+```
+
+**3. Set your registry token:**
+
+```bash
+export REGISTRY_TOKEN="your-license-key-here"
+# Or add to .env file
+```
+
+### Manual Installation
+
+```bash
+npm install @ruforms/form-inputs
+```
+
+## 📦 Available Components
+
+- **Input** - Text input with variants and validation
+- **Textarea** - Multi-line text input
+- **Button** - Action button with multiple styles
+- **Select** - Dropdown selection component
+
+## 🎨 Features
+
+- **TypeScript** - Fully typed components
+- **Tailwind CSS** - Utility-first styling
+- **Accessible** - ARIA compliant
+- **Customizable** - Easy to theme and extend
+- **Lightweight** - Optimized bundle size
+
+## 🔧 Development
 
 ```bash
 # Install dependencies
 pnpm install
 
-# Start development mode
-pnpm dev
+# Build components
+pnpm run build
 
-# Build for production
-pnpm build
+# Development mode
+pnpm run dev
 
-# Run linting
-pnpm lint
-
-# Type check
-pnpm type-check
+# Lint and type check
+pnpm run lint
+pnpm run type-check
 ```
 
-## License
+## 📝 License
 
-MIT
+MIT License - see [LICENSE](LICENSE) for details.
+
+## 🤝 Contributing
+
+This is part of the RuForms ecosystem. For questions and support, visit [ruforms.com](https://ruforms.com).
+
+# Test comment

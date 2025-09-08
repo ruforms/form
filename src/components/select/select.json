@@ -1,0 +1,24 @@
+{
+  "name": "select",
+  "version": "1.0.0",
+  "description": "Select component for forms",
+  "main": "./select.tsx",
+  "types": "./select.tsx",
+  "files": ["./select.tsx"],
+  "dependencies": {
+    "@radix-ui/react-select": "^1.2.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.0.0",
+    "lucide-react": "^0.294.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "keywords": ["select", "dropdown", "forms", "ruforms"],
+  "author": "RuForms Team",
+  "license": "MIT",
+  "repository": "https://github.com/ruforms/form-inputs",
+  "homepage": "https://ruforms.com/components/select"
+}
