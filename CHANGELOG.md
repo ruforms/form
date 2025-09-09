@@ -1,5 +1,12 @@
 # @ruforms/form-inputs
 
+## 0.0.17
+
+### Patch Changes
+
+- Updated dependencies [[`e481a8c`](https://github.com/ruforms/workspace/commit/e481a8cec227a65dbbb119578b515fb2adf24399)]:
+  - @ruforms/primitives@0.0.10
+
 ## 0.0.16
 
 ### Patch Changes
