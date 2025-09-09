@@ -1,6 +1,6 @@
 # @ruforms/form-inputs
 
-A collection of high-quality React form input components built with TypeScript and Tailwind CSS.
+A collection of high-quality React form input components built with TypeScript and Tailwind CSS
 
 ## 🚀 Installation
 
