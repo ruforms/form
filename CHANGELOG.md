@@ -1,5 +1,11 @@
 # @ruforms/form-inputs
 
+## 0.0.21
+
+### Patch Changes
+
+- [`c349e77`](https://github.com/ruforms/workspace/commit/c349e771eb725e793bb71a6c70fa96290bfa8d0f) Thanks [@mertafor](https://github.com/mertafor)! - test
+
 ## 0.0.20
 
 ### Patch Changes
