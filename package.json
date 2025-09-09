@@ -1,6 +1,6 @@
 {
   "name": "@ruforms/form",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "type": "module",
   "description": "Core form library for Ruforms",
   "license": "MIT",
