@@ -40,7 +40,7 @@
     "lucide-react": "0.542.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "@ruforms/primitives": "workspace:*"
+    "@ruforms/primitives": "^0.0.11"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
@@ -60,7 +60,7 @@
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.12",
-    "@ruforms/eslint-config": "workspace:*",
-    "@ruforms/tsconfig": "workspace:*"
+    "@ruforms/eslint-config": "^0.1.0",
+    "@ruforms/tsconfig": "^0.1.0"
   }
 }
